@@ -1,43 +1,111 @@
-# Astro Starter Kit: Minimal
+# Franco Guze
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+## 🇪🇸 Proyectos de Visualización de Datos
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Esta colección presenta proyectos interactivos desarrollados como parte de la certificación de **Data Visualization** de freeCodeCamp.  
 
-## 🚀 Project Structure
+Cada proyecto demuestra el uso de **D3.js** para transformar conjuntos de datos en representaciones visuales claras, dinámicas e interactivas.
 
-Inside of your Astro project, you'll see the following folders and files:
+El enfoque principal está en:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Manipulación y análisis de datos
+- Visualización efectiva de información
+- Interactividad y experiencia de usuario
+- Código limpio y estructurado
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### 📍 Mapa Coroplético
+Mapa coroplético interactivo desarrollado con D3.js que visualiza datos geográficos mediante escalas de color dinámicas para destacar patrones regionales.
 
-Any static assets, like images, can be placed in the `public/` directory.
+🔗 Repositorio:  
+https://github.com/FrancoGuze/Choropleth-Map-freeCodeCamp
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+### 📊 Diagrama Treemap
+Visualización jerárquica creada con D3.js que representa relaciones entre conjuntos de datos mediante rectángulos proporcionales.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+🔗 Repositorio:  
+https://github.com/FrancoGuze/Treemap-Diagram-freeCodeCamp
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### 🌡 Mapa de Calor
+Mapa de calor interactivo que muestra variaciones de temperatura a lo largo del tiempo utilizando escalas de color y datos históricos procesados con D3.js.
+
+🔗 Repositorio:  
+https://github.com/FrancoGuze/Heat-Map-freeCodeCamp
+
+---
+
+### 🔵 Gráfico de Dispersión
+Gráfico de dispersión que muestra la relación entre dos variables mediante puntos interactivos y tooltips dinámicos implementados con D3.js.
+
+🔗 Repositorio:  
+https://github.com/FrancoGuze/Scatterplot-Graph-freeCodeCamp
+
+---
+
+### 📈 Gráfico de Barras
+Gráfico de barras interactivo desarrollado con D3.js que representa datos temporales mediante ejes escalables y visualización dinámica.
+
+🔗 Repositorio:  
+https://github.com/FrancoGuze/Bar-Chart-freeCodeCamp
+
+---
+
+---
+
+# 🇺🇸 Data Visualization Projects
+
+This collection showcases interactive projects developed as part of the **freeCodeCamp Data Visualization Certification**.
+
+Each project demonstrates the use of **D3.js** to transform raw datasets into clear, dynamic, and interactive visual representations.
+
+Main focus areas include:
+
+- Data manipulation and analysis
+- Effective information visualization
+- Interactivity and user experience
+- Clean and structured code
+
+---
+
+### 📍 Choropleth Map
+Interactive choropleth map built with D3.js that visualizes geographic data using dynamic color scales to highlight regional patterns.
+
+🔗 Repository:  
+https://github.com/FrancoGuze/Choropleth-Map-freeCodeCamp
+
+---
+
+### 📊 Treemap Diagram
+Hierarchical data visualization created with D3.js that represents dataset relationships through proportionally sized rectangles.
+
+🔗 Repository:  
+https://github.com/FrancoGuze/Treemap-Diagram-freeCodeCamp
+
+---
+
+### 🌡 Heat Map
+Interactive heat map displaying temperature variations over time using color scales and historical datasets processed with D3.js.
+
+🔗 Repository:  
+https://github.com/FrancoGuze/Heat-Map-freeCodeCamp
+
+---
+
+### 🔵 Scatterplot Graph
+Scatterplot visualization showing the relationship between two variables using interactive data points and dynamic tooltips implemented with D3.js.
+
+🔗 Repository:  
+https://github.com/FrancoGuze/Scatterplot-Graph-freeCodeCamp
+
+---
+
+### 📈 Bar Chart
+Interactive bar chart built with D3.js representing time-series data using scalable axes and dynamic visualization techniques.
+
+🔗 Repository:  
+https://github.com/FrancoGuze/Bar-Chart-freeCodeCamp
