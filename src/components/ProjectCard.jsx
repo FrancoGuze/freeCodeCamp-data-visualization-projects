@@ -2,7 +2,7 @@ export const ProjectCard = ({ img, repo, title, description }) => {
   return (
     <article className="project-card">
       <div className="project-media">
-        <img src={`/src/assets/${img}`} alt={title} loading="lazy" />
+        <img src={`${img}`} alt={title} loading="lazy" />
       </div>
       <div className="project-body">
         <h3>{title}</h3>
