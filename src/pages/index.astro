@@ -1,7 +1,8 @@
 ---
+import {Content} from "../components/Content.jsx"
+import "../global.css"
 
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -12,6 +13,6 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Content client:load />
 	</body>
 </html>

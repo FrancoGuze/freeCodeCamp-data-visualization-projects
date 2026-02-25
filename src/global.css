@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f8f8;
+  color: #111111;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-header .my-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.content-header h1 {
+  margin: 0;
+}
+
+.content-header p {
+  margin: 0;
+  max-width: 640px;
+}
+
+.lang-toggle {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.lang-toggle button {
+  padding: 8px 16px;
+  border: 1px solid #cfcfcf;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.lang-toggle .is-active {
+  border-color: #111111;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  gap: 24px;
+}
+
+.projects-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.projects-heading h2 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.project-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-body h3 {
+  margin: 0;
+}
+
+.project-body p {
+  margin: 0;
+}
+
+.project-link {
+  align-self: flex-start;
+  text-decoration: none;
+  color: #111111;
+  border-bottom: 1px solid #111111;
+  padding-bottom: 4px;
+}
