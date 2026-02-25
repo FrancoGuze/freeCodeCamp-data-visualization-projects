@@ -9,7 +9,7 @@ export const ProjectCard = ({ img, repo, title, description }) => {
         <p>{description}</p>
       </div>
       <a className="project-link" href={repo} target="_blank" rel="noreferrer">
-        Repo{}
+        Repo
       </a>
     </article>
   );
